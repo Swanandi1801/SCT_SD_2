@@ -12,7 +12,8 @@ while True:
     guess = int(input("\nEnter your guess: "))
     guesses += 1
 
-     if guess < secret_number:
+   //cheak the guess
+if guess < secret_number:
         print("📈 Too LOW! Try higher.")
     elif guess > secret_number:
         print("📉 Too HIGH! Try lower.")
